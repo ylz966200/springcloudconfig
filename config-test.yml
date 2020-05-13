@@ -1,2 +1,2 @@
 springconfig:
-  test: this is test
+  test: this is test,version=1
