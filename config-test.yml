@@ -19,6 +19,7 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone: http://eureka71:7001/eureka/,http://eureka72:7002/eureka/
+  #暴露监控端口
 management:
   endpoints:
     web:
