@@ -19,3 +19,8 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone: http://eureka71:7001/eureka/,http://eureka72:7002/eureka/
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
