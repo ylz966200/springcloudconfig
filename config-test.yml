@@ -1,5 +1,5 @@
 springconfig:
-  test: this is test,version=1
+  test: this is test,version=2
 spring:
   application:
     name: cloud-payment-service
