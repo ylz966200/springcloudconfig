@@ -27,7 +27,7 @@ management:
         include: "*"
 #rabbitmq配置
 rabbitmq:
-    host: http://192.168.189.133
+    host: 192.168.189.133
     port: 5672
     username: guest
     password: guest
