@@ -1,5 +1,5 @@
 springconfig:
-  test: this is test,version=2
+  test: this is test,version=3
 spring:
   application:
     name: cloud-payment-service
@@ -26,7 +26,7 @@ management:
       exposure:
         include: "*"
 #rabbitmq配置
-rabbitmq:
+  rabbitmq:
     host: 192.168.189.133
     port: 5672
     username: guest
